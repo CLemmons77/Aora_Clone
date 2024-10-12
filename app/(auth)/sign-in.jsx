@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, Image, Alert } from "react-native";
-import React, { useState } from "react";
+import { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { images } from "../../constants";

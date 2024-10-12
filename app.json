@@ -2,7 +2,7 @@
   "expo": {
     "name": "Aora",
     "scheme": "aora",
-    "slug": "aora_clone",
+    "slug": "aora-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package": "com.clemmons.aora"
+      "package": "com.clemmons.aora",
+      "bundleIdentifier": "com.clemmons.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "55d6aabd-8641-4636-8e10-815d6d80af43"
+      }
+    },
+    "owner": "c.lemmons77"
   }
 }
